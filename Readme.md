@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Денис Евтушенко](https://up.htmlacademy.ru/htmlcss/23/user/2726).
-* Наставник: `Неизвестно`.
+* Наставник: [Антон Попов](https://htmlacademy.ru/profile/joker).
 
 ---
 

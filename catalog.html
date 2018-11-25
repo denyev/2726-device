@@ -77,9 +77,63 @@
     <li class="breadcrumbs__item">Моноподы для селфи</li>
   </ul>
 
-  <form class="filters">
-    <h2 class="filtres__title">Фильтр товаров</h2>
-    <!-- Форма с фильтром товаров-->
+  <form class="filters" action="#" method="post">
+    <h2 class="filters__headline">Фильтр товаров</h2>
+
+    <fieldset class="filters__group">
+      <legend class="filters__title">Стоимость</legend>
+
+      <div class="filters__range">
+        <button class="filters__range-button" type="button">Минимальная стоимость</button>
+        <button class="filters__range-button" type="button">Максимальная стоимость</button>
+        <div class="filters__range-slider"></div>
+      </div>
+    </fieldset>
+
+    <fieldset class="filters__group">
+      <legend class="filters__title">Цвет</legend>
+
+      <label class="filters__field">
+        <input class="filters__checkbox" name="color" type="checkbox" value="black" checked>
+        <span class="filters__title">Черный</span>
+      </label>
+
+      <label class="filters__field">
+        <input class="filters__checkbox" name="color" type="checkbox" value="white">
+        <span class="filters__title">Белый</span>
+      </label>
+
+      <label class="filters__field">
+        <input class="filters__checkbox" name="color" type="checkbox" value="dark_blue" checked>
+        <span class="filters__title">Синий</span>
+      </label>
+
+      <label class="filters__field">
+        <input class="filters__checkbox" name="color" type="checkbox" value="red" checked>
+        <span class="filters__title">Красный</span>
+      </label>
+
+      <label class="filters__field">
+        <input class="filters__checkbox" name="color" type="checkbox" value="pink">
+        <span class="filters__title">Розовый</span>
+      </label>
+    </fieldset>
+
+    <fieldset class="filters__group">
+      <legend class="filters__headline">Bluetooth</legend>
+
+      <label class="filters__field">
+        <input class="filters__radio" name="bluetooth" type="radio" value="yes" checked>
+        <span class="filters__title">Да</span>
+      </label>
+
+      <label class="filters__field">
+        <input class="filters__radio" name="bluetooth" type="radio" value="no">
+        <span class="filters__title">Нет</span>
+      </label>
+    </fieldset>
+
+    <button class="filters__button" type="submit">Показать</button>
   </form>
 
   <section class="catalog">

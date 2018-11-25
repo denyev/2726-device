@@ -137,7 +137,19 @@
   </form>
 
   <section class="catalog">
-    <h2 class="catalog__title visually-hidden">Каталог товаров</h2>
+    <h2 class="visually-hidden">Каталог товаров</h2>
+
+    <div class="catalog__sort">
+      <h2 class="catalog__sort-headline">Сортировка:</h2>
+
+      <a class="catalog__sort-button catalog__sort-button--active" href="#">По цене</a>
+      <a class="catalog__sort-button" href="#">По типу</a>
+      <a class="catalog__sort-button" href="#">По популярности</a>
+      <a class="catalog__sort-button catalog__sort-button--arrow-up" href="#">По возрастанию</a>
+      <a class="catalog__sort-button catalog__sort-button--arrow-down catalog__sort-button--active"
+         href="#">По убыванию</a>
+    </div>
+
     <article class="catalog__card">
       <p class="catalog__img-wrap">
         <img class="catalog__img" src="https://via.placeholder.com/220x165"

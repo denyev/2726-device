@@ -11,3 +11,4 @@ npm-debug.*
 Thumbs.db
 resources/
 shrinkwrap.yaml
+libs/

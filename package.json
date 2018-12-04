@@ -1,0 +1,28 @@
+{
+  "name": "2726-device",
+  "version": "1.0.0",
+  "description": "Личный проект «Девайс» от HTMLacademy",
+  "main": "index.js",
+  "scripts": {
+    "stylelint": "stylelint 'css/**/*.css' --fix",
+    "csscomb": "csscomb 'css/**/*.css'",
+    "editorconfig": "editorconfig-cli --verbose *.html css/**/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denyev/2726-device.git"
+  },
+  "author": "Denis Yevtushenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denyev/2726-device/issues"
+  },
+  "homepage": "https://github.com/denyev/2726-device#readme",
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "^1.0.0",
+    "csscomb": "^4.2.0",
+    "normalize.css": "^8.0.1",
+    "stylelint": "^9.9.0",
+    "stylelint-config-htmlacademy": "^0.1.1"
+  }
+}

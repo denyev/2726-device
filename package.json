@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Личный проект «Девайс» от HTMLacademy",
   "main": "index.js",
+  "engines": {
+    "node": "<=6.12.3"
+  },
   "scripts": {
     "stylelint": "stylelint 'css/**/*.css' --fix",
     "csscomb": "csscomb 'css/**/*.css'",

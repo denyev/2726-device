@@ -11,7 +11,7 @@
 <header class="header">
   <a class="header__skip-link" href="#main">Пропустить навигацию</a>
 
-  <a class="logo" href="index.html">Device</a>
+  <a class="header__logo" href="index.html">Device</a>
 
   <form class="header__search" action="//echo.htmlacademy.ru/" method="post">
     <input class="header__search-field" id="search" type="search" placeholder="Поиск по сайту"
@@ -84,7 +84,7 @@
   </nav>
 </header>
 <main class="main" id="main">
-  <h1 class="main__title">Моноподы для селфи</h1>
+  <h1 class="title">Моноподы для селфи</h1>
 
   <ul class="breadcrumbs__list">
     <li class="breadcrumbs__item">
@@ -93,7 +93,9 @@
     <li class="breadcrumbs__item">
       <a class="breadcrumbs__link" href="#">Магазин</a>
     </li>
-    <li class="breadcrumbs__item">Моноподы для селфи</li>
+    <li class="breadcrumbs__item">
+      <a class="breadcrumbs__link">Моноподы для селфи</a>
+    </li>
   </ul>
 
   <form class="filters" action="//echo.htmlacademy.ru/" method="get">
@@ -114,27 +116,27 @@
 
       <label class="filters__field">
         <input class="filters__checkbox" name="color" type="checkbox" value="black" checked>
-        <span class="filters__title">Черный</span>
+        <span class="filters__label">Черный</span>
       </label>
 
       <label class="filters__field">
         <input class="filters__checkbox" name="color" type="checkbox" value="white">
-        <span class="filters__title">Белый</span>
+        <span class="filters__label">Белый</span>
       </label>
 
       <label class="filters__field">
         <input class="filters__checkbox" name="color" type="checkbox" value="dark_blue" checked>
-        <span class="filters__title">Синий</span>
+        <span class="filters__label">Синий</span>
       </label>
 
       <label class="filters__field">
         <input class="filters__checkbox" name="color" type="checkbox" value="red" checked>
-        <span class="filters__title">Красный</span>
+        <span class="filters__label">Красный</span>
       </label>
 
       <label class="filters__field">
         <input class="filters__checkbox" name="color" type="checkbox" value="pink">
-        <span class="filters__title">Розовый</span>
+        <span class="filters__label">Розовый</span>
       </label>
     </fieldset>
 
@@ -143,16 +145,16 @@
 
       <label class="filters__field">
         <input class="filters__radio" name="bluetooth" type="radio" value="yes" checked>
-        <span class="filters__title">Да</span>
+        <span class="filters__label">Да</span>
       </label>
 
       <label class="filters__field">
         <input class="filters__radio" name="bluetooth" type="radio" value="no">
-        <span class="filters__title">Нет</span>
+        <span class="filters__label">Нет</span>
       </label>
     </fieldset>
 
-    <button class="filters__button" type="submit">Показать</button>
+    <button class="button" type="submit">Показать</button>
   </form>
 
   <section class="catalog">
@@ -270,7 +272,8 @@
   </div>
 </main>
 <footer class="footer">
-  <a class="logo" href="index.html">Device</a>
+  <a class="footer__logo" href="index.html">Device</a>
+
   <ul class="footer-account">
     <li class="footer-account__item">
       <a class="footer-account__link" href="#">
@@ -299,6 +302,7 @@
   </ul>
 
   <p class="address">г. Москва, ул. Строителей, 15</p>
+
   <ul class="footer-menu">
     <li class="footer-menu__item">
       <a class="footer-menu__link" href="#">Доставка</a>
@@ -310,6 +314,7 @@
       <a class="footer-menu__link" href="#">Контакты</a>
     </li>
   </ul>
+
   <p class="phone">Тел.: <a href="tel:+74954959595">+7 (495) 495-95-95</a></p>
 
   <ul class="socials">
@@ -323,6 +328,7 @@
       <a class="socials__link socials__link--twitter" href="//twitter.com" target="_blank" rel="nofollow">Twitter</a>
     </li>
   </ul>
+
   <a class="designed" href="//htmlacademy.ru/intensive/htmlcss" target="_blank" rel="nofollow">HTML Academy</a>
 </footer>
 <script src="js/main.js"></script>

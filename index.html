@@ -11,7 +11,7 @@
 <header class="header">
   <a class="header__skip-link" href="#main">Пропустить навигацию</a>
 
-  <a class="logo">Device</a>
+  <a class="header__logo">Device</a>
 
   <form class="header__search" action="//echo.htmlacademy.ru/" method="post">
     <input class="header__search-field" id="search" name="search" type="search" placeholder="Поиск по сайту"
@@ -171,18 +171,18 @@
   <section class="main__info">
     <h2 class="visually-hidden">Категории товаров</h2>
     <div class="categories">
-      <a href="#" class="categories__link categories__link--vr">Виртуальная реальность</a>
-      <a href="catalog.html" class="categories__link categories__link--monopod">Моноподы для селфи</a>
-      <a href="#" class="categories__link categories__link--action-camera">Экшн-камеры</a>
-      <a href="#" class="categories__link categories__link--fitness-bracelet">Фитнес-браслеты</a>
-      <a href="#" class="categories__link categories__link--smart-watch">Умные часы</a>
-      <a href="#" class="categories__link categories__link--quadcopter">Квадрокоптеры</a>
+      <a class="categories__link categories__link--vr" href="#">Виртуальная реальность</a>
+      <a class="categories__link categories__link--monopod" href="catalog.html">Моноподы для селфи</a>
+      <a class="categories__link categories__link--action-camera" href="#">Экшн-камеры</a>
+      <a class="categories__link categories__link--fitness-bracelet" href="#">Фитнес-браслеты</a>
+      <a class="categories__link categories__link--smart-watch" href="#">Умные часы</a>
+      <a class="categories__link categories__link--quadcopter" href="#">Квадрокоптеры</a>
     </div>
   </section>
 
   <section class="conditions">
     <dl class="conditions__list">
-      <dt class="conditions__headline">Доставка</dt>
+      <dt class="conditions__headline conditions__headline--active">Доставка</dt>
       <dd class="conditions__content conditions__content--delivery">
         <h2 class="title">Доставка</h2>
         <p>
@@ -214,10 +214,10 @@
 
   <section class="brands">
     <h2 class="visually-hidden">Производители товаров</h2>
-    <a class="brands__list brands__list--dji" href="">DJI</a>
-    <a class="brands__list brands__list--sp-gadgets" href="">SP Gadgets</a>
-    <a class="brands__list brands__list--gopro" href="">GoPro</a>
-    <a class="brands__list brands__list--vive" href="">VIVE</a>
+    <a class="brands__link brands__link--dji" href="">DJI</a>
+    <a class="brands__link brands__link--sp-gadgets" href="">SP Gadgets</a>
+    <a class="brands__link brands__link--gopro" href="">GoPro</a>
+    <a class="brands__link brands__link--vive" href="">VIVE</a>
   </section>
 
   <div class="about">
@@ -236,7 +236,7 @@
     <h2 class="title">Контакты</h2>
     <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое
       бывает.</p>
-    <a class="contacts__map" href="#">
+    <a class="contacts__map" href="#map">
       <picture>
         <source
             type="image/webp"
@@ -248,11 +248,12 @@
              width="560" height="222">
       </picture>
     </a>
-    <a class="button">Напишите нам</a>
+    <a class="button" href="#feedback">Напишите нам</a>
   </div>
 </main>
 <footer class="footer">
-  <a class="logo">Device</a>
+  <a class="footer__logo">Device</a>
+
   <ul class="footer-account">
     <li class="footer-account__item">
       <a class="footer-account__link" href="#">
@@ -281,6 +282,7 @@
   </ul>
 
   <p class="address">г. Москва, ул. Строителей, 15</p>
+
   <ul class="footer-menu">
     <li class="footer-menu__item">
       <a class="footer-menu__link" href="#">Доставка</a>
@@ -292,6 +294,7 @@
       <a class="footer-menu__link" href="#">Контакты</a>
     </li>
   </ul>
+
   <p class="phone">Тел.: <a href="tel:+74954959595">+7 (495) 495-95-95</a></p>
 
   <ul class="socials">
@@ -305,10 +308,11 @@
       <a class="socials__link socials__link--twitter" href="//twitter.com" target="_blank" rel="nofollow">Twitter</a>
     </li>
   </ul>
+
   <a class="designed" href="//htmlacademy.ru/intensive/htmlcss" target="_blank" rel="nofollow">HTML Academy</a>
 </footer>
 
-<section class="feedback">
+<section class="feedback" id="feedback">
   <h2 class="visually-hidden">Форма обратной связи</h2>
   <button class="button-close" type="button">Закрыть</button>
 
@@ -326,7 +330,7 @@
   </form>
 </section>
 
-<section class="map">
+<section class="map" id="map">
   <h2 class="visually-hidden">Как к нам проехать</h2>
 
   <button class="button-close" type="button">Закрыть</button>

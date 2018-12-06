@@ -24,6 +24,7 @@
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "^1.0.0",
     "csscomb": "^4.2.0",
+    "htmlhint": "^0.10.1",
     "normalize.css": "^8.0.1",
     "stylelint": "^9.9.0",
     "stylelint-config-htmlacademy": "^0.1.1"
